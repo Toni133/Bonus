@@ -1,14 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        int a = 100;
-        int am = 1200;
-        if (am < 1000) {
-            a = a + am;
+        int account = 100;
+        int refill = 1200;
+        if (refill < 1000) {
+            account = account + refill;
         }
-        if (am > 999) {
-            int bon = am / 100;
-            a = a + am + bon;
+        if (refill > 999) {
+            int bonus = refill / 100;
+            account = account + refill + bonus;
         }
-        System.out.println(a);
+        System.out.println(account);
     }
 }
